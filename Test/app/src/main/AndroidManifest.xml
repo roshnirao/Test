@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bond.test" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lect"
+        android:logo="@drawable/lect"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".iadates"
+            android:label="IA DATES"
+            android:parentActivityName=".MainActivity" >
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".usignup"
+            android:label="Sign up"
+            android:parentActivityName=".Login" >
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+
+        <activity android:name=".imgdis"></activity>
+        <activity android:name=".examdates"></activity>
+        <activity android:name=".listintraevents"></activity>
+        <activity android:name=".listintraevedetails"></activity>
+        <activity android:name=".listinterevents"></activity>
+        <activity android:name=".listinterevedetails"></activity>
+        <activity android:name=".listtechevents"></activity>
+        <activity android:name=".listtechevedetails"></activity>
+        <activity android:name=".listplaceevents"></activity>
+        <activity android:name=".listplaceevedetails"></activity>
+        <activity android:name=".WebViewActivity"></activity>
+        <activity android:name=".updateacc"
+            android:label="Account Management"
+            android:parentActivityName=".MainActivity" >
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Noticeboard</string>
+
+    <string name="title_section1">IA Dates</string>
+    <string name="title_section2">Exam Dates</string>
+    <string name="title_section3">Intra College Events</string>
+    <string name="title_section4">Inter College Events</string>
+    <string name="title_section5">Technical Events</string>
+    <string name="title_section6">Placement Events</string>
+    <string name="title_section7">Fee and Scholarship</string>
+    <string name="title_section8">Queries/Feedback/Complaints</string>
+    <string name="title_section9">View Query answer</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">ABOUT US</string>
+
+    <string name="action_logout">Logout</string>
+
+    <string name="action_settings">Manage your account</string>
+    <string name="ip">172.171.0.53</string>
+    <string name="color">#C6E2FF</string>
+    <string-array name="branch">
+        <item>Select your branch</item>
+        <item>EC</item>
+        <item>CS</item>
+        <item>IS</item>
+        <item>CIV</item>
+        <item>Mech</item>
+        <item>EI</item>
+        <item>EE</item>
+        <item>IP</item>
+    </string-array>
+
+    <string-array name="sem">
+        <item>Select your sem</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="test">
+        <item>Select test number</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="ecat">
+        <item>Select category</item>
+        <item>sports</item>
+        <item>cultural</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Select year</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string-array name="tcat">
+        <item>Select category</item>
+        <item>workshop</item>
+        <item>seminar</item>
+    </string-array>
+
+    <string-array name="money">
+        <item>Select category</item>
+        <item>fee</item>
+        <item>scholarship</item>
+    </string-array>
+</resources>
